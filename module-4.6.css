@@ -1,0 +1,30 @@
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+
+nav > ul{
+    display: flex;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: darkgreen;
+    
+}
+nav li a:hover{
+    font-family: MV boli;
+    color: blue;
+    
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
+nav li:hover .dropdown{
+    display: block;
+    background-color: darkgrey;
+}
